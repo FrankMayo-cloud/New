@@ -1,0 +1,335 @@
+[
+  {
+    "Process": "pool-18-thread-118",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1463",
+    "Message": "Pipeline 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed with state: Completed",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: f8e55d68-db6f-4bac-bf29-d188a990c53c; children=6; previouslyCompleted=6",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "ErrorViewsImpl.java:186",
+    "Message": "Error view with behavior continue received a new type of error: reason={soapenv:Body={@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}}",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": "com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:482)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.doWithRetry(NetSuiteCommon.java:567)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.postRequest(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.makeRequestWithDocument(NetSuiteCommon.java:403)\r\n\tat com.snaplogic.snaps.netsuite.Create.process(Create.java:115)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.process(ExecutionUtil.java:106)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.executeForDocument(ExecutionUtil.java:118)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.execute(ExecutionUtil.java:81)\r\n\tat com.snaplogic.snap.api.SimpleSnap.execute(SimpleSnap.java:70)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.executeSnap(SnapRunnableImpl.java:770)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.execute(SnapRunnableImpl.java:552)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.doRun(SnapRunnableImpl.java:836)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:402)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:116)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1073",
+    "Message": "Closing input views",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:563",
+    "Message": "Cleaning up resources held by the snap",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "ErrorViewsImpl.java:186",
+    "Message": "Error view with behavior continue received a new type of error: reason={soapenv:Body={@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}}",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": "com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:482)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.doWithRetry(NetSuiteCommon.java:567)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.postRequest(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.makeRequestWithDocument(NetSuiteCommon.java:403)\r\n\tat com.snaplogic.snaps.netsuite.Create.process(Create.java:115)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.process(ExecutionUtil.java:106)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.executeForDocument(ExecutionUtil.java:118)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.execute(ExecutionUtil.java:81)\r\n\tat com.snaplogic.snap.api.SimpleSnap.execute(SimpleSnap.java:70)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.executeSnap(SnapRunnableImpl.java:770)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.execute(SnapRunnableImpl.java:552)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.doRun(SnapRunnableImpl.java:836)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:402)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:116)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "NetSuiteCommon.java:631",
+    "Message": "Caught exception on request #1 of 3\r\nexception[0]: com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n  error: An error occurred while executing the SOAP request\r\n  reason: {soapenv:Body={@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}}\r\n  resolution: Please verify that the incoming data is valid and sufficient for the request\r\n  errorDocument: \r\n    soapenv:Body: {@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": "com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:482)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.doWithRetry(NetSuiteCommon.java:567)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.postRequest(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.makeRequestWithDocument(NetSuiteCommon.java:403)\r\n\tat com.snaplogic.snaps.netsuite.Create.process(Create.java:115)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.process(ExecutionUtil.java:106)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.executeForDocument(ExecutionUtil.java:118)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.execute(ExecutionUtil.java:81)\r\n\tat com.snaplogic.snap.api.SimpleSnap.execute(SimpleSnap.java:70)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.executeSnap(SnapRunnableImpl.java:770)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.execute(SnapRunnableImpl.java:552)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.doRun(SnapRunnableImpl.java:836)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:402)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:116)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "NetSuiteCommon.java:631",
+    "Message": "Caught exception on request #1 of 3\r\nexception[0]: com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n  error: An error occurred while executing the SOAP request\r\n  reason: {soapenv:Body={@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}}\r\n  resolution: Please verify that the incoming data is valid and sufficient for the request\r\n  errorDocument: \r\n    soapenv:Body: {@xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/, @xmlns:xsd=http://www.w3.org/2001/XMLSchema, @xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance, addResponse={@xmlns=urn:messages_2019_1.platform.webservices.netsuite.com, writeResponse={platformCore:status={@xmlns:platformCore=urn:core_2019_1.platform.webservices.netsuite.com, @isSuccess=false, platformCore:statusDetail={@type=ERROR, platformCore:code=INVALID_KEY_OR_REF, platformCore:message=Invalid folder reference key 3481808.}}}}}",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": "com.snaplogic.snap.api.SnapDataException: An error occurred while executing the SOAP request\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:482)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon$3.call(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.doWithRetry(NetSuiteCommon.java:567)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.postRequest(NetSuiteCommon.java:429)\r\n\tat com.snaplogic.snaps.netsuite.NetSuiteCommon.makeRequestWithDocument(NetSuiteCommon.java:403)\r\n\tat com.snaplogic.snaps.netsuite.Create.process(Create.java:115)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.process(ExecutionUtil.java:106)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.executeForDocument(ExecutionUtil.java:118)\r\n\tat com.snaplogic.snap.api.ExecutionUtil.execute(ExecutionUtil.java:81)\r\n\tat com.snaplogic.snap.api.SimpleSnap.execute(SimpleSnap.java:70)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.executeSnap(SnapRunnableImpl.java:770)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.execute(SnapRunnableImpl.java:552)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.doRun(SnapRunnableImpl.java:836)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:402)\r\n\tat com.snaplogic.cc.snap.common.SnapRunnableImpl.call(SnapRunnableImpl.java:116)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:752",
+    "Message": "Starting execution",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Create[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- fb1953f6-1ca6-4e9a-9748-4dfe6ec8ec8d]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:709",
+    "Message": "Snap configured successfully",
+    "SnapLabel": "NetSuite+Create",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: cdc5a753-0918-44a2-84a6-60f1b0d59556; children=6; previouslyCompleted=5",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1073",
+    "Message": "Closing input views",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:563",
+    "Message": "Cleaning up resources held by the snap",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:752",
+    "Message": "Starting execution",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "NetSuite Search[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 010b05af-23f8-4c56-882b-3abb40ccbbad]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:709",
+    "Message": "Snap configured successfully",
+    "SnapLabel": "NetSuite+Search",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: c2a5cf0a-8520-4622-90b0-0c49dcae0864; children=6; previouslyCompleted=4",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "Mapper[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- b7ff5045-13fe-4cf9-bd2e-f1008f290ba5]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "Mapper",
+    "Exception": ""
+  },
+  {
+    "Process": "Mapper[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- b7ff5045-13fe-4cf9-bd2e-f1008f290ba5]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "Mapper",
+    "Exception": ""
+  },
+  {
+    "Process": "Mapper[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- b7ff5045-13fe-4cf9-bd2e-f1008f290ba5]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1073",
+    "Message": "Closing input views",
+    "SnapLabel": "Mapper",
+    "Exception": ""
+  },
+  {
+    "Process": "Mapper[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- b7ff5045-13fe-4cf9-bd2e-f1008f290ba5]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:563",
+    "Message": "Cleaning up resources held by the snap",
+    "SnapLabel": "Mapper",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: ce1340ff-7529-40f5-b6c0-8367ce212e98; children=6; previouslyCompleted=3",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "Binary to Document[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 19611ae7-d530-49b2-8f7d-8b43b643dcd7]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "Binary+to+Document",
+    "Exception": ""
+  },
+  {
+    "Process": "Binary to Document[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 19611ae7-d530-49b2-8f7d-8b43b643dcd7]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "Binary+to+Document",
+    "Exception": ""
+  },
+  {
+    "Process": "Binary to Document[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 19611ae7-d530-49b2-8f7d-8b43b643dcd7]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1073",
+    "Message": "Closing input views",
+    "SnapLabel": "Binary+to+Document",
+    "Exception": ""
+  },
+  {
+    "Process": "Binary to Document[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 19611ae7-d530-49b2-8f7d-8b43b643dcd7]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:563",
+    "Message": "Cleaning up resources held by the snap",
+    "SnapLabel": "Binary+to+Document",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: aad57184-fffb-4757-b96c-dbc8c8929776; children=6; previouslyCompleted=2",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "File Reader[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 690e6d6f-fd1f-4a02-9cac-770070ec7b39]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "File+Reader",
+    "Exception": ""
+  },
+  {
+    "Process": "File Reader[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 690e6d6f-fd1f-4a02-9cac-770070ec7b39]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "File+Reader",
+    "Exception": ""
+  },
+  {
+    "Process": "File Reader[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 690e6d6f-fd1f-4a02-9cac-770070ec7b39]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1073",
+    "Message": "Closing input views",
+    "SnapLabel": "File+Reader",
+    "Exception": ""
+  },
+  {
+    "Process": "File Reader[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 690e6d6f-fd1f-4a02-9cac-770070ec7b39]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:563",
+    "Message": "Cleaning up resources held by the snap",
+    "SnapLabel": "File+Reader",
+    "Exception": ""
+  },
+  {
+    "Process": "File Reader[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- 690e6d6f-fd1f-4a02-9cac-770070ec7b39]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "StatusReporterImpl.java:156",
+    "Message": "Completed task (duration=874883965ns; work=75720 bytes) -- Reading: Groupon Agreement for Eco Chateau-2_3_2021 7_59 AM_encrypted_.pdf",
+    "SnapLabel": "File+Reader",
+    "Exception": ""
+  },
+  {
+    "Process": "SnapCompletionService",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "",
+    "File": "PipelineManager.java:1305",
+    "Message": "Child of execution 57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 completed: 6e81de28-116a-4386-9455-88700b27d94f; children=6; previouslyCompleted=1",
+    "SnapLabel": "",
+    "Exception": ""
+  },
+  {
+    "Process": "Mapper1[57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571 -- a55686ba-d0e5-4ff7-b000-adbd9e1f1dc9]",
+    "TimeStamp": "3/30/2021 1:17 PM",
+    "RuntimeID": "57e5671f49eb064e978f2582_d8c19d06-42e5-44d9-8410-4937cac7f571",
+    "File": "SnapRunnableImpl.java:1066",
+    "Message": "Closing output views",
+    "SnapLabel": "Mapper1",
+    "Exception": ""
+  }
+]
