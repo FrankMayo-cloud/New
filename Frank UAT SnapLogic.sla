@@ -1,0 +1,27 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogic"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Frank UAT SnapLogic"
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "fd18fe245b29a30e8203a484d96baa4d79deeb0bd0d3ce5ab284017d9ba87d0d",
+                "key": "account-cloud-managed",
+                "sym_iv": "DT3VjONcxwkYMaOJmREf9A==",
+                "sym_key": "djRDnZeGBFIqb67apT/GOgHax8C+O2rK61NnAtavxlSwjGuoR0xrbq6nggFBdk3gPtuAj5OC8loW90UHcb6ep7z4qzBU/3DG0S3Yrdx2OkMnrhI9SJjZemRXiLbpco8sRyaf1r72GppfYMu1AZowvZNz+3dXHfE+RMuczx5I54bFVaReRTKpp9ro7/UxurTwiF5RqcuG00vBAVKBRj583Wz322R0iMPSVJZHH5HImoZ567/IlXC6jbkj6xWjdwph5uuiUSo03xgzYdB/HyUXc1775GVo4qJvQwwa+o4IDrim1KuUD5aynVNBrBLjB0mEowZgDpxLsB49I8GJKnJdZw==",
+                "value": "81m8noxt92DsrJI3oODwTQ=="
+            },
+            "username": {
+                "value": "FMayo@snaplogic.com"
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "class_id": "com-snaplogic-snaps-email-imapaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogic"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "FM Yahoo"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "attachmentPassword": {
+                "fp": "fd18fe245b29a30e8203a484d96baa4d79deeb0bd0d3ce5ab284017d9ba87d0d",
+                "key": "account-cloud-managed",
+                "sym_iv": "NisVPYqutKxoo1zvIyCPlg==",
+                "sym_key": "jNbSeEt+BTsCiPG7pzan1/hMTt30z9wwRw1ISZ7TCo8Q6UewAvUvGu79zFmU3oZqd2HHbqRpSwns0NwlcX0pWhvNNTuwoBp8R8QqdSmoC8kPbyZB8/TPId4pPtd0tFm3/OBtnOWsvhY8q1/jgKumor9EDB3lPzOSyqACuf4OLGig0xalt/dxE+AIp8vLlUvPx3X4XhlRFFGqJe2x8ak2kQ1sO0LYcd7iyYnZsvzAkTXibk/C8g6FQW4CWGx0C0E0u+UXjAlivKfX1taHQRow7IXN3kt1b0xgcQcfPkm39YNjr1O5e0+H/A2jO+5VGRTNEOJOAiTpHCgCaXlvE8zaCw==",
+                "value": "wwniGZgm4oxN39gw9CJYEA=="
+            },
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "rvazzana@comcast.net"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "fd18fe245b29a30e8203a484d96baa4d79deeb0bd0d3ce5ab284017d9ba87d0d",
+                "key": "account-cloud-managed",
+                "sym_iv": "t88K5XFCBC8BKgA2pAXL+A==",
+                "sym_key": "zH/7BfwlhDERZDFkAuJKfXhm4iS/PvZTEpaJguQpDNIkSNOIu3DwCG1i95sYqlPLt/3SFDMUW2AslgkaEx3NrTu2Nz6/lEFdmXgjWnGnxImPZ15yLSj8z+diSL6I8EbyaquDqHCPMdIdwKs0bZIjYcgcRGkgZJ/tSt89ocKfogc/Mrz6N6TiXyT3Hd+FOS9EFBjxwZpzEWpSXBsj170rjd6mQqGjW35SW0eRDT+vzxWXChoPaRNBtLx1hnSy63S0P47fLSw17guqxrz6UqWzOIMamOEHb7vbGabCOaaE+mItpSsY4BJWY2u6eIxCe8dwIvVFVqLGVMbdioqorS121w==",
+                "value": "tl6ImWfSfDF0gPB0wRNYbg=="
+            },
+            "port": {
+                "value": "993"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "SSL"
+            },
+            "serverDomain": {
+                "value": "imap.comcast.net"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}
