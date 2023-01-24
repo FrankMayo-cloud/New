@@ -51,6 +51,5 @@
         "pan_y_num": 0,
         "scale_ratio": 1
     },
-    "snap_map": {},
-    "target_runtime": "standard"
+    "snap_map": {}
 }

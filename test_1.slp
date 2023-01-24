@@ -165,7 +165,7 @@
                     },
                     "filePath": {
                         "expression": false,
-                        "value": "../shared/copy_out1.csv"
+                        "value": ""
                     },
                     "preventURLEncoding": {
                         "value": false
